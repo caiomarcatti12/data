@@ -1,0 +1,24 @@
+{
+  "name": "caiomarcatti12/data",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Caio Marcatti",
+      "email": "caiomarcatti12@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "CaioMarcatti12\\Data\\" :  "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "ext-mongodb": "*",
+    "ramsey/uuid": ">=4.6.0"
+  }
+}
