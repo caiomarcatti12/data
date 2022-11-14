@@ -2,10 +2,8 @@
 
 namespace CaioMarcatti12\Data;
 
-use CaioMarcatti12\Cli\Interfaces\ArgvParserInterface;
-use CaioMarcatti12\Data\Request\Objects\Header;
-use CaioMarcatti12\Core\Factory\Annotation\Autowired;
 use CaioMarcatti12\Core\Validation\Assert;
+use CaioMarcatti12\Data\Request\Objects\Header;
 
 class HeaderLoader
 {

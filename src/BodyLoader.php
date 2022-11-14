@@ -2,8 +2,8 @@
 
 namespace CaioMarcatti12\Data;
 
-use CaioMarcatti12\Data\Request\Objects\Body;
 use CaioMarcatti12\Core\Validation\Assert;
+use CaioMarcatti12\Data\Request\Objects\Body;
 
 class BodyLoader
 {
