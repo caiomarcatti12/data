@@ -1,9 +1,9 @@
 {
-  "name": "caiomarcatti12/data",
+  "name": "caiomarcatti12/request",
   "description": "",
   "type": "library",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Caio Marcatti",
@@ -12,13 +12,12 @@
   ],
   "autoload" : {
     "psr-4" : {
-      "CaioMarcatti12\\Data\\" :  "src/"
+      "CaioMarcatti12\\Request\\" :  "src/"
     }
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-    "ext-mongodb": "*",
-    "ramsey/uuid": ">=4.6.0"
+    "ext-curl": "*"
   }
 }
